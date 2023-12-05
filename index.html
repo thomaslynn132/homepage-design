@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <!-- Link to the CSS file -->
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <img src="PLUSHIFY Logo (1).png" alt="PLUSHIFY Logo" class="logo" />
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          id="nightModeToggle"
+          onclick="toggleNightMode()"
+          style="position: fixed; top: 75px; right: 250px; cursor: pointer">
+          <path
+            d="M12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8V16Z"
+            fill="#000000" />
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2ZM12 4V8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16V20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4Z"
+            fill="#000000" />
+        </svg>
+      </div>
+    </header>
+    <div class="container">
+      <div class="textBox">
+        <p>
+          Welcome to Plushify.com.au, an elite private membership club, designed
+          exclusively by invitation. Our club is dedicated to fostering
+          strategic partnerships among luxury brands, targeting and engaging
+          with high-net-worth (HNW) and ultra-high-net-worth (UHNW) clientele.
+          At Plushify, we offer a unique platform where influential business
+          minds meet, connect, and thrive together in an environment tailored
+          for the luxury market.
+        </p>
+      </div>
+      <div class="contactInfo">
+        <h1 class="contact">Contact</h1>
+        <p><b>Name:</b> Ashleigh McDonald</p>
+        <p><b>Position:</b> Chief Executive</p>
+        <p>
+          <b>Website:</b>
+          <a href="http://plushify.com.au">http://plushify.com.au/</a>
+        </p>
+        <p>
+          <b>Email:</b>
+          <a href="mailto:ashleigh@plushify.com.au">ashleigh@plushify.com.au</a>
+        </p>
+      </div>
+    </div>
+    <script>
+      function toggleNightMode() {
+        document.body.classList.toggle("night-mode");
+      }
+    </script>
+  </body>
+</html>
